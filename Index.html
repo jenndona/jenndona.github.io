@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Job Fit — Mini-Website</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Navigation -->
+  <header>
+    <div class="container nav">
+      <div class="brand">
+        <div class="logo">JF</div>
+        <span>Job Fit • Mini-site</span>
+      </div>
+      <nav aria-label="Main navigation">
+        <ul>
+          <li><a href="#postings">Postings</a></li>
+          <li><a href="jenn.html">Jenn</a></li>
+          <li><a href="shanice.html">Shanice</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <main id="main" class="container">
+    <section class="hero">
+      <div>
+        <div class="pill" aria-hidden="true">Centennial • Interactive Media</div>
+        <h1 class="headline">From Students to <span style="color:var(--brand-2)">Industry</span> — Now.</h1>
+        <p class="lead">
+          We selected 2–3 real job postings and show <strong>why we fit them today</strong>. 
+          Explore the roles, compare requirements, and check our profiles to see our experience, skills, and testimonials.
+        </p>
+        <div style="display:flex; gap:.6rem; margin-top:1rem">
+          <a class="btn" href="#postings">See Job Postings</a>
+          <a class="btn ghost" href="jenn.html">Meet Jenn</a>
+        <a class="btn ghost" href="shanice.html">Meet Shanice</a>
+</div>
+
+        </div>
+      </div>
+      <div class="tile card"></div>
+    </section>
+
+    <!-- Job Postings -->
+    <section id="postings" style="margin-top:32px">
+      <h2 class="section-title">Selected Job Postings</h2>
+      <p class="muted">Here are the roles we’re interested in. Each one matches our skills and future goals.</p>
+
+      <div class="jobs">
+
+        <!-- Example 1: UX Designer -->
+        <article class="job card" data-role="ux">
+          <header>
+            <div>
+              <h3>UX Designer — Junior</h3>
+              <div class="meta">
+                <span>Company: <strong>Acme Studio</strong></span>
+                <span>•</span>
+                <span>Toronto, ON (Hybrid)</span>
+                <span>•</span>
+                <span>Full-time</span>
+              </div>
+            </div>
+            <a class="btn" href="#" target="_blank" rel="noopener">View Posting</a>
+          </header>
+          <p class="muted">
+            Responsibilities: wireframes, prototypes, usability testing, and collaboration with dev teams in agile environments.
+          </p>
+          <div class="tags">
+            <span class="pill">Figma</span>
+            <span class="pill">User Research</span>
+            <span class="pill">Prototyping</span>
+            <span class="pill">WCAG</span>
+          </div>
+          <div class="cta">
+            <a class="btn ghost" href="jenn.html">Match with Jenn</a>
+            <a class="btn ghost" href="shanice.html">Match with Shanice</a>
+          </div>
+        </article>
+
+        <!-- Example 2: QA Specialist -->
+        <article class="job card" data-role="qa">
+          <header>
+            <div>
+              <h3>QA Specialist — Web/Mobile</h3>
+              <div class="meta">
+                <span>Company: <strong>NorthLeaf</strong></span>
+                <span>•</span>
+                <span>Toronto, ON (Remote)</span>
+                <span>•</span>
+                <span>Contract</span>
+              </div>
+            </div>
+            <a class="btn" href="#" target="_blank" rel="noopener">View Posting</a>
+          </header>
+          <p class="muted">
+            Responsibilities: test plan design, regression testing, bug reporting, and continuous integration support.
+          </p>
+          <div class="tags">
+            <span class="pill">Test Plans</span>
+            <span class="pill">Cypress</span>
+            <span class="pill">Postman</span>
+            <span class="pill">CI/CD</span>
+          </div>
+          <div class="cta">
+            <a class="btn ghost" href="jenn.html">Match with Jenn</a>
+            <a class="btn ghost" href="shanice.html">Match with Shanice</a>
+          </div>
+        </article>
+
+        <!-- Example 3: Front-end Developer -->
+        <article class="job card" data-role="dev">
+          <header>
+            <div>
+              <h3>Front-end Developer — React</h3>
+              <div class="meta">
+                <span>Company: <strong>BluePixel</strong></span>
+                <span>•</span>
+                <span>GTA (Hybrid)</span>
+                <span>•</span>
+                <span>Full-time</span>
+              </div>
+            </div>
+            <a class="btn" href="#" target="_blank" rel="noopener">View Posting</a>
+          </header>
+          <p class="muted">
+            Responsibiliti
