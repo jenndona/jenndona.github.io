@@ -172,3 +172,13 @@ footer{border-top:1px solid var(--border); color:var(--muted)}
   .hero{grid-template-columns:1fr}
 }
 
+.hero-image {
+  background-image: url('design.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 400px;   /* puedes ajustar esto a tu gusto */
+  height: 250px;  /* también puedes cambiarlo */
+  border-radius: 12px;
+}
+
+
